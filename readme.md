@@ -25,5 +25,3 @@
 
 Nach meiner Teilnahme bei neue fische möchte ich in einem Team als Web Developer arbeiten und meine Fähigkeiten mit viel Arbeitserfahrung verbessern.
 
-Außerdem möchte gerne Dänisch lernen. Ich denke das es schwieriger als Norwegisch ist aber möchte unbedingt noch ein paar weitere Scandinavischen Sprachen lernen :heavy_exclamation_mark:
-
