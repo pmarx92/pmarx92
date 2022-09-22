@@ -1,4 +1,4 @@
-# Welcome to my Profil :sunglasses:
+# Welcome to my Profile :sunglasses:
 
 :seedling:  Web Development Bootcamp Teilnehmer bei neue fische :penguin:
 
