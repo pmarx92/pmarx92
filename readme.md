@@ -43,6 +43,9 @@ Nach meiner Teilnahme bei neue fische möchte ich in einem Team als Web Develope
 - <a href="https://quiz-app-ultra-drab.vercel.app/">Quiz App Ultra - Vercel<a/> In Progress
 - <a href="https://github.com/pmarx92/quiz-app-ultra">Quiz App Ultra - GitHub</a> In Progress
 
+- <a href="https://shopping-list-app-alpha.vercel.app/">Einkaufsliste - Vercel<a/> In Progress
+- <a href="https://github.com/pmarx92/shopping-list-app">Einkaufsliste - GitHub</a> In Progress
+
 ## Stats
 
 ![Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=pmarx92&theme=blue-green)
