@@ -32,7 +32,7 @@ Nach meiner Teilnahme bei neue fische möchte ich in einem Team als Web Develope
 ## Projekte mit neue fische erstellt:
 
 - <a href="https://rick-and-morty-app-4uw3.vercel.app/">Rick and Morty App - Vercel<a/> 
-- <a href="https://github.com/pmarx92/rick-and-morty-app/blob/main/README.md">Rick & Morty - GitHub</a>
+- <a href="https://github.com/pmarx92/rick-and-morty-app">Rick & Morty - GitHub</a>
 
 - <a href="https://vercel.com/pmarx92/portfolio-neue-fische">Portfolio Website - Vercel<a/> 
 - <a href="https://github.com/pmarx92/portfolio-neueFische">Portfolio Website - GitHub</a>
