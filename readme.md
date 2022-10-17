@@ -40,8 +40,8 @@ Nach meiner Teilnahme bei neue fische möchte ich in einem Team als Web Develope
 - <a href="https://color-saver-app-six.vercel.app/">Color Saver App - Vercel<a/> In Progress
 - <a href="https://github.com/pmarx92/color-saver-app">Color Saver App - GitHub</a> In Progress
 
-- <a href="https://quiz-app-ultra-drab.vercel.app/">Quiz App Ultra - Vercel<a/> In Progress
-- <a href="https://github.com/pmarx92/quiz-app-ultra">Quiz App Ultra - GitHub</a> In Progress
+- <a href="https://quiz-app-ultra-drab.vercel.app/">Quiz App Ultra - Vercel<a/>
+- <a href="https://github.com/pmarx92/quiz-app-ultra">Quiz App Ultra - GitHub</a>
 
 - <a href="https://shopping-list-app-alpha.vercel.app/">Einkaufsliste - Vercel<a/>
 - <a href="https://github.com/pmarx92/shopping-list-app">Einkaufsliste - GitHub</a>
