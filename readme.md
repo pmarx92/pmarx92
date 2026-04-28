@@ -1,6 +1,10 @@
 # Patrick Marx — Softwareentwickler mit DevOps & Cloud Fokus 👋
 
-Ich bringe über **drei Jahre Berufserfahrung** in einer Enterprise-Umgebung für den VW-Konzern mit – mit Schwerpunkten in Java-Backend-Entwicklung, Datenbankadministration (DB2) und Release-/Deploymentprozessen. Meinen Fokus verlagere ich gezielt Richtung **Cloud Engineering und DevOps**: containerisierte Systeme, Infrastrukturautomatisierung und Monitoring-Pipelines – praktisch erprobt im eigenen Homelab.
+Softwareentwickler mit 3 Jahren Enterprise-Erfahrung (VW-Umfeld) und wachsendem Fokus auf DevOps und Cloud.
+
+Praxis in Deployment-Prozessen, Datenbankbetrieb (DB2) und containerisierten Systemen.
+
+Aufbau und Betrieb einer eigenen Monitoring-Infrastruktur (Docker, MQTT, InfluxDB, Grafana) im Homelab.
 
 ---
 
@@ -9,7 +13,7 @@ Ich bringe über **drei Jahre Berufserfahrung** in einer Enterprise-Umgebung fü
 **Softwareentwickler** · Bredex GmbH, Braunschweig *(Dez 2022 – heute)*
 > Enterprise-Umgebung für den VW-Konzern
 
-- Release- und Deployment-Management in QS- und Produktionsumgebungen
+- Mitarbeit in Release- und Deployment-Prozessen
 - Entwicklung und Wartung einer Java/Spring-Boot-Backend-Applikation + Frontend-Komponenten
 - Administration und Pflege von **DB2-Datenbanken** in unternehmenskritischen Systemen
 - Fehleranalyse und Codepflege nach **Clean-Code-Prinzipien**
