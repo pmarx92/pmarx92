@@ -1,10 +1,10 @@
 # Patrick Marx — Softwareentwickler mit DevOps & Cloud Fokus 👋
 
-Softwareentwickler mit 3 Jahren Enterprise-Erfahrung (VW-Umfeld) und wachsendem Fokus auf DevOps und Cloud.
+Softwareentwickler mit 3 Jahren Enterprise-Erfahrung (VW-Umfeld) und wachsendem Fokus auf DevOps und Cloud und Infrastructure Operations.
 
 Praxis in Deployment-Prozessen, Datenbankbetrieb (DB2) und containerisierten Systemen.
 
-Aufbau und Betrieb einer eigenen Monitoring-Infrastruktur (Docker, MQTT, InfluxDB, Grafana) im Homelab.
+Im eigenen Homelab baue ich eine praxisnahe Monitoring- und Deployment-Infrastruktur mit Docker, MQTT, InfluxDB, Grafana und GitHub Actions auf.
 
 ---
 
@@ -13,11 +13,13 @@ Aufbau und Betrieb einer eigenen Monitoring-Infrastruktur (Docker, MQTT, InfluxD
 **Softwareentwickler** · Bredex GmbH, Braunschweig *(Dez 2022 – heute)*
 > Enterprise-Umgebung für den VW-Konzern
 
-- Mitarbeit in Release- und Deployment-Prozessen
+- Durchführung von Deployments in TEST-Umgebungen
+- Vorbereitung von QS-Deployments über eine zentrale Deployment- und Supportplattform
+- Unterstützung produktionsnaher Deployments und Analyse deploymentnaher Fehlerbilder
 - Entwicklung und Wartung einer Java/Spring-Boot-Backend-Applikation + Frontend-Komponenten
 - Administration und Pflege von **DB2-Datenbanken** in unternehmenskritischen Systemen
-- Fehleranalyse und Codepflege nach **Clean-Code-Prinzipien**
-- Enge Zusammenarbeit mit Betrieb und Fachbereichen
+- Fehleranalyse im Zusammenspiel von Anwendung, Datenbank und Umgebung
+- Enge Zusammenarbeit mit Betrieb, Schnittstellenpartnern und Fachbereichen
 
 ---
 
@@ -30,12 +32,14 @@ Raspberry Pi 5  ──MQTT──▶  Debian 13  ──▶  InfluxDB  ──▶  
 (DHT22 Sensor)              (Subscriber)    (Zeitreihen)   (Dashboard)
 ```
 
-Ein Raspberry Pi 5 erfasst Umgebungsdaten via GPIO-Sensor und publiziert sie über einen gesicherten MQTT-Broker. Ein zentraler Debian-Server nimmt die Daten entgegen, validiert und persistiert sie in InfluxDB. Grafana visualisiert die Metriken in Echtzeit.
+Ein Raspberry Pi 5 erfasst Umgebungsdaten via GPIO-Sensor und publiziert sie über einen gesicherten MQTT-Broker. Ein zentraler Debian-Server nimmt die Daten entgegen, validiert und persistiert sie in InfluxDB. 
+Grafana visualisiert die Metriken in Echtzeit.
 
 **Konkret umgesetzt:**
 
 - 5 Dienste vollständig containerisiert mit **Docker & Docker Compose**
-- Secrets-Management ausschließlich über `.env`-Dateien
+- Erste GitHub-Actions-CI-Pipeline zur Validierung von Docker-/Compose-Konfigurationen eingerichtet
+- Konfiguration und sensible Werte über .env-Dateien vom Code getrennt
 - **Docker Healthcheck** überwacht den Datenfluss – wechselt auf `unhealthy` wenn >60s keine MQTT-Nachricht eingeht
 - MQTT-Authentifizierung via Password-File (`allow_anonymous false`)
 - **SSH-Härtung** mit Ed25519-Keys, kein Passwort-Login
@@ -54,6 +58,7 @@ Ein Raspberry Pi 5 erfasst Umgebungsdaten via GPIO-Sensor und publiziert sie üb
 ![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-A22846?style=for-the-badge&logo=raspberry-pi&logoColor=white)
 ![SSH](https://img.shields.io/badge/SSH-4D4D4D?style=for-the-badge&logo=openssh&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 
 ### Monitoring & Messaging
 ![InfluxDB](https://img.shields.io/badge/InfluxDB-22ADF6?style=for-the-badge&logo=influxdb&logoColor=white)
@@ -80,8 +85,8 @@ Ein Raspberry Pi 5 erfasst Umgebungsdaten via GPIO-Sensor und publiziert sie üb
 ### In Aufbau
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 ---
 
 ## 📚 Was ich gerade lerne
@@ -103,7 +108,7 @@ Das Homelab ist mein aktives Lernlabor – aktuelle Themen:
 
 ## 📫 Kontakt
 
-Ich suche eine **Junior Cloud Engineer** oder **Junior DevOps Engineer** Position, in der ich meine Enterprise-Erfahrung mit meinem wachsenden Infrastruktur-Know-how verbinden kann.
+Ich suche eine **Junior DevOps Engineer**, **Junior Cloud Engineer** oder **Infrastructure/Platform Operations** Position, in der ich meine Enterprise-Erfahrung mit meinem wachsenden Infrastruktur-Know-how verbinden kann.
 
 Reise- und Umzugsbereitschaft deutschlandweit vorhanden.
 
